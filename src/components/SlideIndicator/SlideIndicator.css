@@ -1,0 +1,19 @@
+.w-silde-indic {
+  width: 170px;
+}
+
+.w-slide-indic-btn {
+  width: 35px;
+  height: 2px;
+  margin-right: 10px;
+  float: left;
+  background: #474747;
+}
+
+.w-slide-indic-btn:last-child {
+  margin-right: 0;
+}
+
+.w-slide-indic-btn-active {
+  background: #fff;
+}

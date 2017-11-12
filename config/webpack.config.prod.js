@@ -167,7 +167,7 @@ module.exports = {
           // use the "style" loader inside the async code so CSS from them won't be
           // in the main CSS file.
           {
-            test: /\.css$/,
+            test: /\.css|\.scss|\.sass$/,
             loader: ExtractTextPlugin.extract(
               Object.assign(
                 {
@@ -186,6 +186,7 @@ module.exports = {
                         sourceMap: shouldUseSourceMap,
                       },
                     },
+                    require.resolve('sass-loader'),
                     {
                       loader: require.resolve('postcss-loader'),
                       options: {
@@ -195,7 +196,7 @@ module.exports = {
                         plugins: () => [
                           require('postcss-flexbugs-fixes'),
                           px2rem({
-                            remUnit: 75
+                            remUnit: 37.5
                           }),
                           autoprefixer({
                             browsers: [

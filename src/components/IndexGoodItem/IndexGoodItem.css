@@ -1,0 +1,16 @@
+.w-index-goodsItem {
+  width: 100%;
+  height: 510.77px;
+  background: #f0f1f5;
+  text-align: center;
+  padding: 35px 0;
+  border-bottom: 1px solid  #fff;
+}
+
+.w-index-goodsItem > img {
+  width: 100%;
+}
+
+.w-index-goodsItem > .w-button {
+  margin-top: 10.35px;
+}

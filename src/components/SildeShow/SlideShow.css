@@ -1,0 +1,28 @@
+.w-slideShow {
+  position: relative;
+  width: 100%;
+  height: 484.47px;
+  padding-bottom: 4px;
+  overflow: hidden;
+}
+
+.w-slideShow-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.w-slideShow-itemImg {
+  width: 100%;  
+}
+
+.w-slide-indicators {
+  width: 170px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  margin: 0 auto;
+  z-index: 2;
+}

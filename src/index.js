@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'react-flexible'
+import { BrowserRouter } from 'react-router-dom';
+import { renderRoutes } from 'react-router-config';
+import { routes } from './router';
+import 'react-flexible';
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter>
+  {renderRoutes(routes)}
+</BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();
