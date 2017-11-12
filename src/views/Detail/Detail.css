@@ -1,0 +1,35 @@
+.w-goodsdetail-title-wrap {
+  position: relative;
+  font-size: 14px;
+}
+
+.w-goodsdetail-title-wrap > span, .w-goodsdetail-title-wrap > .w-button {
+  height: 52.73px;
+  line-height: 52.73px;
+}
+
+.w-detail-buy-title {
+  width: 219px;
+  padding: 0 11.719px;
+}
+
+.w-detail-buy-price {
+  color: #d0111b;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 120px;
+}
+
+.w-goodsdetail-title-wrap .w-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 108.39px;
+  border-radius: 0px;
+}
+
+.w-detail-image img {
+  display: block;
+  width: 100%;
+}

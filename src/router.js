@@ -1,6 +1,7 @@
 import App from './App';
 import Home from './views/Home';
 import About from './views/About';
+import Detail from './views/Detail'
 
 export const routes = [
   { component: App,
@@ -13,6 +14,10 @@ export const routes = [
       { 
         path: '/about',
         component: About
+      },
+      {
+        path: '/detail',
+        component: Detail
       }
     ]
   }

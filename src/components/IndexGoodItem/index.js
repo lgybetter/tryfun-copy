@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './IndexGoodItem.css'
 
 class IndexGoodItem extends Component {
@@ -8,7 +9,7 @@ class IndexGoodItem extends Component {
       <div className="w-index-goodsItem">
         <img alt="" src={good.image}></img>
         <button className="w-button">
-          <a>了解更多</a>
+          <Link to={'/detail'}>了解更多</Link>
         </button>
       </div>
     )
