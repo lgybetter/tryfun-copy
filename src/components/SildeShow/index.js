@@ -9,22 +9,22 @@ class SlideShow extends Component {
     this.state = {
       images: [
         {
-          url: 'http://tryfun.nosdn.127.net/1510326147854.jpg?imageView&quality=95&thumbnail=640x820',
+          url: 'http://os32fgzvj.bkt.clouddn.com/1510326147854.jpg',
           zIndex: 1,
           opacity: 0
         },
         {
-          url: 'http://tryfun.nosdn.127.net/1508981942191.jpg?imageView&quality=95&thumbnail=640x820',
+          url: 'http://os32fgzvj.bkt.clouddn.com/1508981942191.jpg',
           zIndex: 1,
           opacity: 0          
         },
         {
-          url: 'http://tryfun.nosdn.127.net/1508722813849.jpg?imageView&quality=95&thumbnail=640x820',
+          url: 'http://os32fgzvj.bkt.clouddn.com/1508722813849.jpg',
           zIndex: 1,
           opacity: 0                    
         },
         {
-          url: 'http://tryfun.nosdn.127.net/1508646555321.jpg?imageView&quality=95&thumbnail=640x820',
+          url: 'http://os32fgzvj.bkt.clouddn.com/1508646555321.jpg',
           zIndex: 1,
           opacity: 0          
         }

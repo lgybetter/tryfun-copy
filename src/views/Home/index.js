@@ -9,19 +9,19 @@ class Home extends Component {
     this.state = {
       goods: [
         {
-          image: 'http://tryfun.nosdn.127.net/1508862215702.jpg'
+          image: 'http://os32fgzvj.bkt.clouddn.com/1508862215702.jpg'
         },
         {
-          image: 'http://tryfun.nosdn.127.net/1508901625379.jpg'
+          image: 'http://os32fgzvj.bkt.clouddn.com/1508901625379.jpg'
         },
         {
-          image: 'http://tryfun.nosdn.127.net/1508646645819.jpg'
+          image: 'http://os32fgzvj.bkt.clouddn.com/1508646645819.jpg'
         },
         {
-          image: 'http://tryfun.nosdn.127.net/1508722841416.jpg'
+          image: 'http://os32fgzvj.bkt.clouddn.com/1508722841416.jpg'
         },
         {
-          image: 'http://tryfun.nosdn.127.net/1508862237268.jpg'
+          image: 'http://os32fgzvj.bkt.clouddn.com/1508862237268.jpg'
         }
       ]
     }
@@ -37,7 +37,7 @@ class Home extends Component {
         <SlideShow></SlideShow>
         {goods}
         <div className="w-jumbotron">
-          <a><img alt="" src="http://tryfun.nosdn.127.net/1508646444085.jpg"></img></a>
+          <a><img alt="" src="http://os32fgzvj.bkt.clouddn.com/1508646444085.jpg"></img></a>
         </div>
       </section>
     );
